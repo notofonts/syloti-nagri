@@ -1,7 +1,8 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/uniA81C"
+"/uniA81C",
+"/uni25CC"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syloti-nagri)";
 customParameters = (
@@ -6639,6 +6640,18 @@ position = "{295, 580}";
 {
 name = Anchor4;
 position = "{380, 0}";
+},
+{
+name = Anchor6;
+position = "{352, 725}";
+},
+{
+name = bottom;
+position = "{298, -27}";
+},
+{
+name = top;
+position = "{319, 648}";
 }
 );
 layerId = UUID0;
