@@ -73,16 +73,16 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>1</td>
-                <td>5</td>
+                <td>0</td>
+                <td>6</td>
                 <td>111</td>
                 <td>7</td>
                 <td>103</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>1%</td>
-                <td>3%</td>
+                <td>0%</td>
+                <td>4%</td>
                 <td>67%</td>
                 <td>4%</td>
                 <td>62%</td>
@@ -103,7 +103,7 @@ FONT_FAMILY_NAME = 'Noto Sans Syloti Nagri' / SUBFAMILY_NAME = 'Regular'</p>
 
 <details><summary>⚠️ <strong>fonts/NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; 🔥⚠️⚠️⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⏩⏩⏩⏩ℹ️ℹ️</h2>
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
@@ -127,40 +127,18 @@ FONT_FAMILY_NAME = 'Noto Sans Syloti Nagri' / SUBFAMILY_NAME = 'Regular'</p>
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
-<h3>Ensure dotted circle glyph is present and can attach marks.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️</h2>
+<h3>Check glyphs in mark glyph class are non-spacing.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_spacing_marks&gt;</div>
 
-<details><summary>🔥 <strong>fonts/NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- gravecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B 
-
-- And 5 more.
-</code></pre>
-<p>Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]</p>
+<details><summary>⚠️ <strong>fonts/NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+uniA823 (U+A823), uniA824 (U+A824) and uniA827 (U+A827) [code: spacing-mark-glyphs]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️</h2>
-<h3>Check mark characters are in GDEF mark glyph class.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_mark_chars&gt;</div>
+<h3>Check GDEF mark glyph class doesn't have characters that are not marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_non_mark_chars&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
-uniA802 (U+A802), uniA806 (U+A806), uniA80B (U+A80B), uniA825 (U+A825), uniA826 (U+A826) and uniA82C (U+A82C) [code: mark-chars]</p>
+<details><summary>⚠️ <strong>fonts/NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+A823, U+A824 and U+A827 [code: non-mark-chars]</p>
 </span></li></ul></div></details>
                     </body>
                 </html>
