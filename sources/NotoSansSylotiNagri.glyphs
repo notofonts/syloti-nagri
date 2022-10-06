@@ -1,5 +1,5 @@
 {
-.appVersion = "3109";
+.appVersion = "3134";
 DisplayStrings = (
 "/uniA81C",
 "/uni25CC"
@@ -3732,6 +3732,8 @@ width = 281;
 }
 );
 unicode = A823;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = uniA824;
@@ -3788,6 +3790,8 @@ width = 254;
 }
 );
 unicode = A824;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = uniA825;
@@ -3987,6 +3991,8 @@ width = 262;
 }
 );
 unicode = A827;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = uniA828;
