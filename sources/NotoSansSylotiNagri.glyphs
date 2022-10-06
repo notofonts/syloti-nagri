@@ -189,7 +189,7 @@ uni25CC
 name = "Axis Mappings";
 value = {
 wght = {
-400 = 100;
+"400" = 100;
 };
 };
 },
@@ -219,7 +219,7 @@ value = GOOG;
 },
 {
 name = versionString;
-value = "Version 2.002";
+value = "Version 2.003";
 },
 {
 name = Axes;
@@ -7020,5 +7020,5 @@ com.schriftgestaltung.Glyphs.groupsNotInFeature = (
 );
 };
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }
