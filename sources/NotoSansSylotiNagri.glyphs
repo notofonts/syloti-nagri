@@ -6637,11 +6637,11 @@ layers = (
 anchors = (
 {
 name = Anchor2;
-position = "{400, 590}";
+position = "{317, 641}";
 },
 {
 name = Anchor3;
-position = "{295, 580}";
+position = "{314, 650}";
 },
 {
 name = Anchor4;
@@ -6649,7 +6649,7 @@ position = "{380, 0}";
 },
 {
 name = Anchor6;
-position = "{352, 725}";
+position = "{314, 647}";
 },
 {
 name = bottom;
