@@ -1,8 +1,7 @@
 {
 .appVersion = "3201";
 DisplayStrings = (
-"/uniA81C",
-"/uni25CC"
+"/uniA81C"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syloti-nagri)";
 customParameters = (
@@ -184,14 +183,6 @@ uni2011,
 uni2055,
 uni25CC
 );
-},
-{
-name = "Axis Mappings";
-value = {
-wght = {
-100 = 400;
-};
-};
 },
 {
 name = "Disable Last Change";
