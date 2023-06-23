@@ -219,7 +219,7 @@ value = GOOG;
 },
 {
 name = versionString;
-value = "Version 2.003";
+value = "Version 2.004";
 },
 {
 name = Axes;
@@ -7020,5 +7020,5 @@ com.schriftgestaltung.Glyphs.groupsNotInFeature = (
 );
 };
 versionMajor = 2;
-versionMinor = 3;
+versionMinor = 4;
 }
