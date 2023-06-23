@@ -257,7 +257,7 @@ code = "# Automatic Code Start\012";
 name = mark;
 },
 {
-code = "# Automatic Code Start\012";
+code = "# Automatic Code Start\012\012# Work around lack of mkmk in DFLT (https://github.com/googlefonts/ufo2ft/issues/754, #7)\012pos uni25CC uniA826 uniA80B' <100 100 0 0>;";
 name = mkmk;
 }
 );
