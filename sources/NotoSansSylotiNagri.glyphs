@@ -1,7 +1,7 @@
 {
-.appVersion = "3201";
+.appVersion = "3243";
 DisplayStrings = (
-"/uniA81C"
+"/uniA816"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syloti-nagri)";
 customParameters = (
@@ -189,6 +189,10 @@ name = "Disable Last Change";
 value = 1;
 },
 {
+name = description;
+value = "Designed by Monotype design team.";
+},
+{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
@@ -199,10 +203,6 @@ value = "https://scripts.sil.org/OFL";
 {
 name = trademark;
 value = "Noto is a trademark of Google Inc.";
-},
-{
-name = description;
-value = "Designed by Monotype design team.";
 },
 {
 name = vendorID;
@@ -2651,7 +2651,7 @@ position = "{306, 725}";
 },
 {
 name = Anchor4;
-position = "{554, -147}";
+position = "{688, -65}";
 }
 );
 layerId = UUID0;
@@ -6910,6 +6910,26 @@ instanceInterpolations = {
 UUID0 = 1;
 };
 name = Regular;
+userData = {
+co.uk.corvelsoftware.Dotter.guidelines = (
+{
+height = Descender;
+thickness = 10;
+},
+{
+height = "x-Height";
+thickness = 10;
+},
+{
+height = "Cap Height";
+thickness = 10;
+},
+{
+height = Ascender;
+thickness = 10;
+}
+);
+};
 }
 );
 manufacturer = "Monotype Imaging Inc.";
