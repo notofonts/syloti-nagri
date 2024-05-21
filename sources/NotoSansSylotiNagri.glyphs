@@ -1,7 +1,7 @@
 {
 .appVersion = "3243";
 DisplayStrings = (
-"/uniA816"
+"/uniA826/uniA827"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syloti-nagri)";
 customParameters = (
@@ -3879,14 +3879,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"165 675 LINE",
-"106 803 OFFCURVE",
-"7 890 OFFCURVE",
-"-101 935 CURVE",
-"-130 871 LINE",
-"-41 835 OFFCURVE",
-"43 769 OFFCURVE",
-"100 663 CURVE"
+"165 731 LINE",
+"106 859 OFFCURVE",
+"7 946 OFFCURVE",
+"-101 991 CURVE",
+"-130 927 LINE",
+"-41 891 OFFCURVE",
+"43 825 OFFCURVE",
+"100 719 CURVE"
 );
 }
 );
